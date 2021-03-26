@@ -7,7 +7,7 @@ body {
 
 @media only screen and (max-width: 768px) {
     body {
-        padding: 25px;
+        padding: 15px;
     }
 }
 
@@ -23,6 +23,8 @@ body {
     position: fixed;
     z-index: 600;
     top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
