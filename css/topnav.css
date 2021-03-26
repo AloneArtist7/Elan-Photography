@@ -5,6 +5,12 @@ body {
     background-color: #111111;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 25px;
+    }
+}
+
 
 /*TopNav*/
 
