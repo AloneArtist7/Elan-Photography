@@ -33,6 +33,7 @@
     width: 200px;
     position: relative;
     justify-self: center;
+    text-align: center;
 }
 
 .end-creatortitle {
@@ -64,6 +65,8 @@
 @media only screen and (max-width: 1124px) {
     .end-creatordiv {
         margin-top: 25px;
+        justify-content: center;
+        text-align: center;
     }
 }
 
