@@ -1,109 +1,72 @@
 .planps-maindiv {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: relative;
-    display: block;
-    background-color: black;
-}
-
-
-/*Plan photoshoot Title div*/
-
-.planps-titlediv {
-    text-align: center;
-    position: relative;
-    display: block;
-}
-
-.planps-titleone {
-    font-size: 17px;
-    font-weight: 600;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: white;
-    text-align: center;
-    margin-bottom: 10px;
-    letter-spacing: 5px;
-    opacity: 75%;
-}
-
-.planps-titletwo {
-    font-size: 35px;
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    color: white;
-    letter-spacing: 1px;
-    font-weight: 500;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-
-/*Plan a photoshoot Categ*/
-
-.planps-categ-maindiv {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
-    flex: 1;
     flex-direction: row;
     position: relative;
     justify-content: center;
 }
 
-.pps-categdiv {
-    float: left;
-    position: relative;
-    display: block;
-    justify-content: center;
-    padding: 10px;
-    padding-bottom: 30px;
-    margin: 30px;
-    background-color: #111111;
-    text-align: center;
-    padding-top: 15px;
-}
-
-@media only screen and (max-width: 1124px) {
-    .planps-categ-maindiv {
+@media only screen and (max-width: 768px) {
+    .planps-maindiv {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        position: relative;
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    .pps-categdiv {
-        justify-content: center;
     }
 }
 
-.pps-categimg {
-    height: 320px;
-    width: 240px;
+
+.planps-imgdiv {
+    text-align: center;
+    float: left;
+    justify-content: center;
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
-.pps-categtitle {
-    font-size: 30px;
+.planps-imgtxt {
+    font-size: 35px;
+    letter-spacing: 5px;
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
     color: white;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+    margin-top: 125px;
+}
+
+
+.planps-htxt {
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+.planps-txtdiv {
+    background-color: rgba(20, 20, 20, 0.7);
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    justify-content: center;
     text-align: center;
 }
 
-.pps-categcta {
-    font-size: 20px;
-    font-weight: 600;
+.planps-ptxt {
+    font-size: 21px;
+    font-weight: 500;
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
-    padding: 10px;
-    background-color: #ed2b33;
-    border-radius: 10px;
-    text-decoration: none;
-    justify-content: center;
-    transition: 0.4s;
-}
-.pps-categcta:hover {
-    font-size: 21px;
-    box-shadow: 2px 2px 5px black;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
 }
